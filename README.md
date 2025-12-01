@@ -18,11 +18,14 @@ Skills are modular, self-contained packages that provide:
 | [frontend-ui-animator](./skills/frontend-ui-animator) | Implement purposeful UI animations for Next.js + Tailwind + React projects | Frontend |
 | [frontend-ui-integration](./skills/frontend-ui-integration) | Extend user-facing workflows integrating with existing backend APIs | Frontend |
 | [shadcn-management](./skills/shadcn-management) | Manage shadcn/ui components using MCP tools | Frontend |
+| [rsc-data-optimizer](./skills/rsc-data-optimizer) | Optimize Next.js data fetching with React Server Components | Frontend |
 | [backend-dev](./skills/backend-dev) | Comprehensive backend development from API design to deployment | Backend |
 | [product-management](./skills/product-management) | PRDs, feature analysis, user research synthesis, and roadmap planning | Planning |
+| [task-generator](./skills/task-generator) | Generate structured task lists from specs or requirements | Planning |
 | [agents-md-generator](./skills/agents-md-generator) | Generate hierarchical AGENTS.md structures for codebases | Documentation |
 | [browser](./skills/browser) | Chrome DevTools Protocol tools for browser automation and scraping | Automation |
 | [skill-creator](./skills/skill-creator) | Guide for creating effective AI skills | Meta |
+| [template-skill](./skills/template-skill) | Basic template for creating new skills | Meta |
 
 ## Skill Categories
 
@@ -57,6 +60,14 @@ Manage shadcn/ui components via MCP tools:
 - Get installation commands
 - Build complex UI features with multiple components
 
+#### `rsc-data-optimizer`
+Optimize slow client-side data fetching to instant server-side rendering:
+- Convert useEffect + useState patterns to Server Components
+- Parallel data fetching with Promise.all
+- Hybrid SSR + client-side patterns
+- Streaming with Suspense boundaries
+- Caching strategies (static, revalidate, on-demand)
+
 ### Backend Development
 
 #### `backend-dev`
@@ -76,6 +87,13 @@ Core product management activities:
 - User research synthesis
 - Roadmap planning
 - Competitive analysis
+
+#### `task-generator`
+Generate structured task lists from specs or requirements:
+- 2-phase workflow (parent tasks → sub-tasks)
+- Markdown checklist format with relevant files
+- Automatically triggered after ExitSpecMode
+- Junior developer-friendly task descriptions
 
 #### `agents-md-generator`
 Generate hierarchical AGENTS.md structures optimized for AI coding agents:
@@ -99,6 +117,11 @@ Guide for creating effective AI skills:
 - Progressive disclosure patterns
 - Best practices for SKILL.md writing
 - Packaging and validation scripts
+
+#### `template-skill`
+Basic template for creating new skills:
+- Minimal SKILL.md structure
+- Ready to customize for new skill development
 
 ## Installation
 
